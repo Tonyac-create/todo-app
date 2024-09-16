@@ -44,7 +44,7 @@ export default function ListTasks() {
                 <div className="hidden md:flex">
                     <FilterButtons />
                 </div>
-                <button onClick={() => setTasks(tasks.filter(task => !task.checked))}>Clear completed</button>
+                <button onClick={() => setTasks(tasks.filter(task => !task.checked))} className={`${theme == "light" ? "hover:text-LTDarkGrayishBlue" : "hover:text-white"}`}>Clear completed</button>
             </div>
         </ul>
     )

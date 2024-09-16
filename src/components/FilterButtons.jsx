@@ -29,19 +29,19 @@ export default function FilterButtons() {
         <div className={`flex justify-evenly gap-4 rounded-md font-semibold mt-3 p-4  md:mt-0 ${theme == "light" ? "bg-LTLightGray" : "bg-DTVeryDarkGrayishBlue"}`}>
             <button
                 onClick={handleList}
-                className={`${activeFilter === "all" && "text-primaryBrightBlue"}`}
+                className={`${theme == "light" ? "hover:text-LTDarkGrayishBlue" : "hover:text-white"} ${activeFilter === "all" && "text-primaryBrightBlue"}`}
             >
                 All
             </button>
             <button
                 onClick={filterActiveTasks}
-                className={`${activeFilter === "active" && "text-primaryBrightBlue"}`}
+                className={`${theme == "light" ? "hover:text-LTDarkGrayishBlue" : "hover:text-white"} ${activeFilter === "active" && "text-primaryBrightBlue"}`}
             >
                 Active
             </button>
             <button
                 onClick={filterCompletedTasks}
-                className={`${activeFilter === "completed" && "text-primaryBrightBlue"}`}
+                className={`${theme == "light" ? "hover:text-LTDarkGrayishBlue" : "hover:text-white"} ${activeFilter === "completed" && "text-primaryBrightBlue"}`}
             >
                 Completed
             </button>
