@@ -40,7 +40,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Github](https://github.com/Tonyac-create/todo-app)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Vercel](https://todo-app-psi-jet.vercel.app/)
 
 ## My process
 
