@@ -57,7 +57,7 @@ Next step: TODO => Drag and drop to reorder items on the list
 ## Author
 
 - LinkedIn - [Angelique Copere](https://www.linkedin.com/in/angelique-copere-dev/)
-- CV Notion - 
+- CV Notion - [Angelique Copere](https://www.notion.so/Ang-lique-Cop-r-D-veloppeur-web-front-11f53c9673b743b091f5858210033e8a)
 - Frontend Mentor - [@Tonyac-create](https://www.frontendmentor.io/profile/Tonyac-create)
 
 
